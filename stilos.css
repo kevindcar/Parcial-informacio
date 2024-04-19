@@ -1,0 +1,48 @@
+
+
+
+header {
+    text-align: center;
+
+}
+
+.contenedor {
+    position: relative; /* Para que los elementos dentro se posicionen relativos a este contenedor */
+    width: 1000px/* Ancho de tu imagen */
+}
+.imagen {
+    width: 1800px;
+    height: 200px;
+    display: flex;
+}
+.titulo {
+
+    position: absolute; /* Posicionamiento absoluto para superponer el texto */
+    top: 120px; /* Ajusta la posición verticalmente */
+    left: 10px; /* Ajusta la posición horizontalmente */
+    transform: translate(50%, -50%); /* Centra el texto en el centro del contenedor */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente del texto */
+    text-align: center; /* Alineación del texto */
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    text-align: center;
+   
+}
+
+main{
+    background-color: rgb(4, 156, 245);
+    text-align: center;
+
+}
+h4{
+    background-color: rgb(0, 24, 59);
+    text-align: center;
+}

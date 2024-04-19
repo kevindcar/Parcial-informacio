@@ -1,0 +1,3 @@
+inicie el proyecto
+termine el index
+termine galeria
